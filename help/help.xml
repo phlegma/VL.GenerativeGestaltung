@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Pack>
+	<Topic title="Generative Gestaltung">
+		<UriItem title="Generative Gestaltung v2 Sketches" link="http://www.generative-gestaltung.de/2/" mediaType="text"/>
+		<UriItem title="Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
+	</Topic>
+	<Topic title="Sketches">
+		<Subtopic title="P.1.Farbe">
+			<VLDocument link="Topics\Farbe\HowTo P_1_0_01.vl"/>
+			<VLDocument link="Topics\Farbe\HowTo P_1_1_1_01.vl"/>
+		</Subtopic>
+	</Topic>
+</Pack>
