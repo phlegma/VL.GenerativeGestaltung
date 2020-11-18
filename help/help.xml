@@ -5,7 +5,7 @@
 		<UriItem title="Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
 	</Topic>
 	<Topic title="Sketches">
-		<Subtopic title="P.1.Farbe">
+		<Subtopic title="P.1. Farbe">
 			<VLDocument link="Topics\Farbe\HowTo P_1_0_01.vl"/>
 			<VLDocument link="Topics\Farbe\HowTo P_1_1_1_01.vl"/>
 		</Subtopic>
