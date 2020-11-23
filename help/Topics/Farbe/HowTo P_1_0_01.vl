@@ -41,7 +41,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="FsgEQ5JXrgnQcjSGAQwbvB" Name="Bounds" Kind="InputPin" DefaultValue="1151, 61, 383, 401">
+            <Pin Id="FsgEQ5JXrgnQcjSGAQwbvB" Name="Bounds" Kind="InputPin" DefaultValue="1139, 61, 395, 401">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
