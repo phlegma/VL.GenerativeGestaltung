@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Pack>
-	<Topic title="Generative Gestaltung">
-		<UriItem title="Generative Gestaltung v2 Sketches" link="http://www.generative-gestaltung.de/2/" mediaType="text"/>
-		<UriItem title="Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
+	<Topic title="Infos">
+		<UriItem title="Reference Generative Gestaltung v2 Sketches" link="http://www.generative-gestaltung.de/2/" mediaType="text"/>
+		<UriItem title="Reference Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
 	</Topic>
 	<Topic title="Sketches">
 		<Subtopic title="P.1. Farbe">
 			<VLDocument link="Topics\Farbe\HowTo P_1_0_01.vl"/>
 			<VLDocument link="Topics\Farbe\HowTo P_1_1_1_01.vl"/>
+		</Subtopic>
+		<Subtopic title="P.2. Form">
+			<VLDocument link="Topics\Form\HowTo P_2_0_01.vl"/>
+			<VLDocument link="Topics\Form\HowTo P_2_1_3_04.vl"/>
+			<VLDocument link="Topics\Form\HowTo P_2_1_5_01.vl"/>
+			<VLDocument link="Topics\Form\HowTo P_2_1_5_02.vl"/>
+		</Subtopic>
+		<Subtopic title="M.1. Zufall und Rauschen">
+			<VLDocument link="Topics\RandomNoise\HowTo M_1_2_01.vl"/>
+			<VLDocument link="Topics\RandomNoise\HowTo M_1_5_02.vl"/>
+		</Subtopic>
+		<Subtopic title="M.1. Schwingungsfiguren">
+			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_3_01.vl"/>
 		</Subtopic>
 	</Topic>
 </Pack>
