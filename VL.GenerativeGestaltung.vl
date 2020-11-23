@@ -93,7 +93,11 @@
               </p:NodeReference>
               <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
               <Pin Id="VpuNehupEoULIjbJYMXY9s" Name="Layer" Kind="InputPin" />
-              <Pin Id="NrcGTYWSXilLfGa5PFSXcL" Name="Color" Kind="InputPin" />
+              <Pin Id="NrcGTYWSXilLfGa5PFSXcL" Name="Color" Kind="InputPin" DefaultValue="0.2400001, 0.2400001, 0.2400001, 1">
+                <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                </p:TypeAnnotation>
+              </Pin>
               <Pin Id="F8iESijgoA2NS2yH73pXTu" Name="Clear" Kind="InputPin" />
               <Pin Id="LfRVjkFfX5NM9ScccOIiee" Name="Space" Kind="InputPin" />
               <Pin Id="TgUvtIfMV4XPbpaWd945AW" Name="Width" Kind="InputPin">
@@ -162,13 +166,23 @@
             </Node>
             <ControlPoint Id="ICOyFTRUBtILyMxsX7FwI8" Bounds="568,271" />
             <ControlPoint Id="ENWwoJ9DUSDOcWyumoVsfc" Bounds="617,269" />
+            <ControlPoint Id="EA8IcYoJia8NjFUhV3B97J" Bounds="508,274" />
           </Canvas>
           <Patch Id="LOYcQpRVavyNpCFhz1dXTm" Name="Create" />
           <Patch Id="ObTUAJ7ADG2MTVG3jbs2Lv" Name="Update">
             <Pin Id="L04KtIQX8oiN4juAUBbH7o" Name="Input" Kind="InputPin" Bounds="488,430" />
             <Pin Id="PdG0GIgHFkyQbAOsfkRmo0" Name="Write" Kind="InputPin" Bounds="587,457" />
-            <Pin Id="UqPNhwPmvhNMOZExCcSXjs" Name="Width" Kind="InputPin" Bounds="573,272" />
-            <Pin Id="U71F3KaHwNBMRe8Y4OoZau" Name="Height" Kind="InputPin" Bounds="633,271" />
+            <Pin Id="UqPNhwPmvhNMOZExCcSXjs" Name="Width" Kind="InputPin" Bounds="573,272" DefaultValue="1024">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="U71F3KaHwNBMRe8Y4OoZau" Name="Height" Kind="InputPin" Bounds="633,271" DefaultValue="1024">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Integer32" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="TfOhRapvT3PN3SRWIJ6wJJ" Name="Color" Kind="InputPin" Bounds="513,274" />
           </Patch>
           <ProcessDefinition Id="HUKVGFHPHsyQIZdRN5zKZQ">
             <Fragment Id="LABXyNRkRbtPzwbIJAVOVJ" Patch="LOYcQpRVavyNpCFhz1dXTm" Enabled="true" />
@@ -194,6 +208,8 @@
           <Link Id="Gx9JTUAC0DNPftjrH0JFyn" Ids="UqPNhwPmvhNMOZExCcSXjs,ICOyFTRUBtILyMxsX7FwI8" IsHidden="true" />
           <Link Id="U4nuYIcMhSBLFW9qK0iKmY" Ids="ENWwoJ9DUSDOcWyumoVsfc,H0xir03q06LPzt8GkglEa2" />
           <Link Id="CA9Nl8q2b0YL33vK6Al7fS" Ids="U71F3KaHwNBMRe8Y4OoZau,ENWwoJ9DUSDOcWyumoVsfc" IsHidden="true" />
+          <Link Id="PBmrNzv66xGPpEg46aEiGm" Ids="EA8IcYoJia8NjFUhV3B97J,NrcGTYWSXilLfGa5PFSXcL" />
+          <Link Id="GPtfumRJIpyNsiP0HaGYN8" Ids="TfOhRapvT3PN3SRWIJ6wJJ,EA8IcYoJia8NjFUhV3B97J" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>

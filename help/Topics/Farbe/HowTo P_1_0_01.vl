@@ -240,6 +240,7 @@
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
             </p:NodeReference>
             <Pin Id="FLCIu9Oa4amLXg8a4p2p2q" Name="Input" Kind="InputPin" />
+            <Pin Id="PSkWadTK38dN4u9nVp1lOS" Name="Color" Kind="InputPin" />
             <Pin Id="Qkrx3VZSUzANevswrUMxz5" Name="Width" Kind="InputPin" />
             <Pin Id="MiakeO9OX43NsmSCC0Jl6y" Name="Height" Kind="InputPin" DefaultValue="300">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -283,6 +284,7 @@
         <Link Id="SkmrgJY5CJBMN0JV9qzTt1" Ids="MhutfYnG1UVOdhSzfe1IRE,FLCIu9Oa4amLXg8a4p2p2q" />
         <Link Id="VFblWfzelR2LaVdoMP8WLY" Ids="NUn2FMAG69KQXdnsiODZSb,J1pjSbHOzDdQbYiZLFFEbG" />
         <Link Id="KsP33IwmvnLNByjdI1TxLm" Ids="T03lUYJKrL4M7cgBbOKizN,G13OKK3ucOvPMJTVAxakPS" />
+        <Link Id="LjRCB5bF2gNN3DcQK4Ho2R" Ids="J7ZhlZe8IrfLoMofLOR4wR,PSkWadTK38dN4u9nVp1lOS" />
       </Patch>
     </Node>
   </Patch>

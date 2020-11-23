@@ -24,7 +24,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="366,1007,185,19" Id="AZnamglHXV4LrIRZhSKlQD">
+          <Node Bounds="364,1032,185,19" Id="AZnamglHXV4LrIRZhSKlQD">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -98,12 +98,13 @@
             <Pin Id="QcoDm6OwZcCNwhjAWJxGUV" Name="Keyboard" Kind="OutputPin" />
             <Pin Id="B86yWSpO9YrNJj9F1eQg90" Name="Pressed Keys" Kind="OutputPin" />
           </Node>
-          <Node Bounds="272,1006,85,19" Id="AvzbplSVdmOO8wq9OIigct">
+          <Node Bounds="270,1031,85,19" Id="AvzbplSVdmOO8wq9OIigct">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
             </p:NodeReference>
             <Pin Id="JuE7F9mmNXsMPY4bF5n9N2" Name="Input" Kind="InputPin" />
+            <Pin Id="Kov9pM4lBC0QMuyhGGI2Wp" Name="Color" Kind="InputPin" />
             <Pin Id="PupfaWHvtaVPmVi7tWGLPK" Name="Width" Kind="InputPin" />
             <Pin Id="FgsFwWDGfU5P4hUnm1RKCr" Name="Height" Kind="InputPin" />
             <Pin Id="LXgL3wPaUz5M83bjzpS4Tx" Name="Write" Kind="InputPin" />
@@ -127,11 +128,6 @@
             <Pin Id="IGO7sAiknRSMjaBtIRXliI" Name="Viewport Bounds In World Space" Kind="OutputPin" />
             <Pin Id="U1dejae1cAZPoYt2TrG8LZ" Name="Viewport Size In World Space" Kind="OutputPin" />
           </Node>
-          <Pad Id="Vv3jgOqzhc7MGnKKSSdMUY" Comment="Space" Bounds="488,993,85,15" ShowValueBox="true" isIOBox="true" Value="PixelTopLeft">
-            <p:TypeAnnotation LastCategoryFullName="VL.Skia" LastSymbolSource="VL.Skia.dll">
-              <Choice Kind="TypeFlag" Name="CommonSpace" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="720,821,46,19" Id="OUFfGoAG1PCN51E5EaqDPt">
             <p:NodeReference LastCategoryFullName="2D.Vector2" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -500,6 +496,11 @@
           <Overlay Id="LPfwEd1oIwRQFo7TQC35Le" Name="Renderer Infos" Bounds="621,723,200,200" />
           <Overlay Id="QfRdWuICo1oLaapt9lfxSh" Name="Mouse Infos" Bounds="929,688,293,260" />
           <Overlay Id="U2yidxFU5CeL7tDWGohbcr" Name="Rectangel calculation" Bounds="98,10,673,670" />
+          <Pad Id="QVwYJpU7BLYPucTciR1s89" Comment="Color" Bounds="446,1009,136,15" ShowValueBox="true" isIOBox="true" Value="1, 0, 0.06000328, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="NsQKISOCDXfMBLVH1M3wla" Name="Create" />
         <Patch Id="I3EreJ2amNTQP6V9MG8tq6" Name="Update" ParticipatingElements="Pmzm0nLwDL9QJNIh7qN1jQ" />
@@ -512,7 +513,6 @@
         <Link Id="CmCzZ4BVymdPwSTK1f8Tsb" Ids="PMQXnQ4Du9oOWtvri9Tkjq,JuE7F9mmNXsMPY4bF5n9N2" />
         <Link Id="KE67dfYgsA4MtZVETXEiS7" Ids="B86yWSpO9YrNJj9F1eQg90,LXgL3wPaUz5M83bjzpS4Tx" />
         <Link Id="IidXN28SMH0LQFH5gZU8gI" Ids="Q6bnTVV27ltPZB5ybeQwAb,F2V1zuY1R4jNRu2V6nPQDp" />
-        <Link Id="FZZVKrOBiBNO2JhKwiClpe" Ids="Vv3jgOqzhc7MGnKKSSdMUY,IuEQkaQ3Q1iNpANSGggYg4" />
         <Link Id="MC32FhXgwIFLTEOZ5WusC1" Ids="U1dejae1cAZPoYt2TrG8LZ,KD8y74ob9H1QR9skV887nT" />
         <Link Id="JAonFHBVp7YOCMXu4bOeeA" Ids="MjlYHyKBgXgOErxwjgjmDl,Fk8l2WpkR7RMblJk9QPOLS" />
         <Link Id="HqHDsl8a8zzOij1UllerB0" Ids="Mv2Jha9dI80MMa495aBGuT,SVFbW6YOJmjMtlN4XHFMMg" />
@@ -577,6 +577,8 @@
         <Link Id="OljE6z0ijONLA2bX1MbHwy" Ids="SZpEx5NKcNPP3v6u82OOlY,IQdzBnMZ00GNW1RTY4Ejuf" />
         <Link Id="FYyJeTSlYaEPPuTPHTFnxy" Ids="Izzq6QGBGJiLgZhlKOsfIo,MzJ3gJVhbE5NJzqvpCj6Xq" />
         <Link Id="DHly2iBlDdVQO70nLIHfKj" Ids="AcWciLdg8SIPT7MtRmc0qG,JyKuRiQvLS5QLNpvdu0VSB" />
+        <Link Id="TcOkIcFkU66MWpZaFTsHct" Ids="QVwYJpU7BLYPucTciR1s89,GcmcU3nHnicQMhmVBIh5jk" />
+        <Link Id="I9QVIK3NNwmLgnySz4jzqB" Ids="QVwYJpU7BLYPucTciR1s89,Kov9pM4lBC0QMuyhGGI2Wp" />
       </Patch>
     </Node>
   </Patch>

@@ -243,7 +243,7 @@
             </Pin>
             <Pin Id="QtzGdmJrNqzLxZJp4YEEg4" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="349,817,185,19" Id="Dc6WASGkIyHPMcLbQjNHqb">
+          <Node Bounds="356,849,185,19" Id="Dc6WASGkIyHPMcLbQjNHqb">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -299,12 +299,13 @@
             <Pin Id="PkWYboK8DXsNZjBeOiSjIb" Name="Keyboard" Kind="OutputPin" />
             <Pin Id="BsIImvG5mKEMCRHQLU4LTG" Name="Pressed Keys" Kind="OutputPin" />
           </Node>
-          <Node Bounds="255,816,85,19" Id="VSxevEIvNcKLZAHRtgQniN">
+          <Node Bounds="262,848,85,19" Id="VSxevEIvNcKLZAHRtgQniN">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
             </p:NodeReference>
             <Pin Id="IT02q3JbzNFQIbda5dGlnD" Name="Input" Kind="InputPin" />
+            <Pin Id="LQyRBYd3vbiNdqv3ND53WS" Name="Color" Kind="InputPin" />
             <Pin Id="BWnT2rVAdo3MxfXI90xx6h" Name="Width" Kind="InputPin" />
             <Pin Id="SGX8gcu1LaSPrqG6TgHWOL" Name="Height" Kind="InputPin" DefaultValue="300">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -313,7 +314,7 @@
             </Pin>
             <Pin Id="FFF01e7fuy9Ns8TNASeRp5" Name="Write" Kind="InputPin" />
           </Node>
-          <Pad Id="GDyveikGssjLMVkqNyCN4L" Bounds="37,822,194,58" ShowValueBox="true" isIOBox="true" Value="By hitting 's' or 'S' the Image is saved next to the helppatch.  ">
+          <Pad Id="GDyveikGssjLMVkqNyCN4L" Bounds="44,854,194,58" ShowValueBox="true" isIOBox="true" Value="By hitting 's' or 'S' the Image is saved next to the helppatch.  ">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -321,6 +322,11 @@
               <p:fontsize p:Type="Int32">9</p:fontsize>
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="DB4a3vceVufMdRpk0GFI1z" Comment="Color" Bounds="439,818,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
           </Pad>
         </Canvas>
         <Patch Id="Ov3FPSfdLZML5Vy10FsWWq" Name="Create" />
@@ -353,6 +359,8 @@
         <Link Id="Nw7RmStLszJNvUbrqcLJK4" Ids="Oll5uMMZAw1MiS2Cnq1ep1,REskKUEQyXoLOaB7XZs0Kz" />
         <Link Id="TSHoZ8cLwifQHaG9510Asn" Ids="AmEAUzORp0WQZbjo8dPRfD,EXYMv4NGdi1NHiV1uKMSWe" />
         <Link Id="I826NobvPKsMwKGeEAQHmo" Ids="K8RvZ1QVkJSPt9d9TBGvFB,HTR4egXWMw2LQQf1AxOfe1" />
+        <Link Id="Tv48iq9Jmo4QNpYJYMhf2R" Ids="DB4a3vceVufMdRpk0GFI1z,SGfXzzhuxMWN972VBEodZC" />
+        <Link Id="LSNrEMPL2DeQb3b81z8TCu" Ids="DB4a3vceVufMdRpk0GFI1z,LQyRBYd3vbiNdqv3ND53WS" />
       </Patch>
     </Node>
   </Patch>
