@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Pack>
-	<Topic title="Generative Gestaltung">
-		<UriItem title="Generative Gestaltung v2 Sketches" link="http://www.generative-gestaltung.de/2/" mediaType="text"/>
-		<UriItem title="Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
+	<Topic title="Infos">
+		<UriItem title="Reference Generative Gestaltung v2 Sketches" link="http://www.generative-gestaltung.de/2/" mediaType="text"/>
+		<UriItem title="Reference Inhaltsverzeichnis" link="http://www.generative-gestaltung.de/2/downloads/generative-gestaltung-de-toc.pdf" mediaType="text"/>
 	</Topic>
 	<Topic title="Sketches">
 		<Subtopic title="P.1. Farbe">
@@ -11,6 +11,7 @@
 		</Subtopic>
 		<Subtopic title="P.2. Form">
 			<VLDocument link="Topics\Form\HowTo P_2_1_3_04.vl"/>
+			<VLDocument link="Topics\Form\HowTo P_2_1_5_02.vl"/>
 		</Subtopic>
 	</Topic>
-</Pack> 	
+</Pack>
