@@ -201,12 +201,12 @@
             <Pin Id="KuOtiytWCBaOH7r1e3Ndfm" Name="Output" Kind="OutputPin" />
           </Node>
           <Pad Id="IsBRITVY5TbOgQDvHABBjL" SlotId="T7FDj9MfazjNS9tqnNNyNI" Bounds="766,692" />
-          <Pad Id="Qx1l9xhA3HKL9DAY7BiScM" Comment="tileCountX" Bounds="326,-32,35,15" ShowValueBox="true" isIOBox="true" Value="6">
+          <Pad Id="Qx1l9xhA3HKL9DAY7BiScM" Comment="tileCountX" Bounds="322,-18,35,15" ShowValueBox="true" isIOBox="true" Value="6">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="JQcBYbClIQ0LBUiFR7Nf9b" Comment="tileCountY" Bounds="364,10,35,15" ShowValueBox="true" isIOBox="true" Value="8">
+          <Pad Id="JQcBYbClIQ0LBUiFR7Nf9b" Comment="tileCountY" Bounds="364,10,35,15" ShowValueBox="true" isIOBox="true" Value="6">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
