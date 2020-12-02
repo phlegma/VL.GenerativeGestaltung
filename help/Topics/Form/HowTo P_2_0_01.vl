@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="P3Dgmog2KBTPxNYy5xgnxE">
         <Canvas Id="EgP22HourUWPyP6U6pmzBP" CanvasType="Group">
-          <Node Bounds="490,394,312,318" Id="Fq0FFplBQRGQXD5R9Nx0Jr">
+          <Node Bounds="490,388,312,324" Id="Fq0FFplBQRGQXD5R9Nx0Jr">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
@@ -146,7 +146,7 @@
                 </Pin>
                 <Pin Id="SqVHhVW3aptQcaUJaVb0ZY" Name="Output" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="NYm5TwULKk6M58wfLBSCbF" Bounds="653,412" />
+              <ControlPoint Id="NYm5TwULKk6M58wfLBSCbF" Bounds="655,406" />
             </Patch>
             <ControlPoint Id="Oki76zHAuCLM9ai6D84h23" Bounds="507,707" Alignment="Bottom" />
             <Pin Id="FlJIsFTg1QEMrXpi9efhSe" Name="Iteration Count" Kind="InputPin" />
@@ -277,7 +277,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="P7ZTwCfQeM6OXLn8NtIfVD" Name="Bounds" Kind="InputPin" DefaultValue="1035, 57, 581, 535">
+            <Pin Id="P7ZTwCfQeM6OXLn8NtIfVD" Name="Bounds" Kind="InputPin" DefaultValue="1094, 58, 581, 535">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>

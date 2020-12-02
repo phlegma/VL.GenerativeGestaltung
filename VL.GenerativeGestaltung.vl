@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2020.3.0.82" Version="0.128">
-  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2020.3.0-0082-g7f8ac28314" />
+<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2020.3.0.93" Version="0.128">
+  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2020.3.0-0093-g0962957380" />
   <Patch Id="OyOxAdjTEsdQLQFEaY33Hm">
     <Canvas Id="Rqeuu1Kl2x3Nuwhlo82CUx" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -100,16 +100,8 @@
               </Pin>
               <Pin Id="F8iESijgoA2NS2yH73pXTu" Name="Clear" Kind="InputPin" />
               <Pin Id="LfRVjkFfX5NM9ScccOIiee" Name="Space" Kind="InputPin" />
-              <Pin Id="TgUvtIfMV4XPbpaWd945AW" Name="Width" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
-              <Pin Id="H0xir03q06LPzt8GkglEa2" Name="Height" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pin>
+              <Pin Id="TgUvtIfMV4XPbpaWd945AW" Name="Width" Kind="InputPin" />
+              <Pin Id="H0xir03q06LPzt8GkglEa2" Name="Height" Kind="InputPin" />
               <Pin Id="L2vlMPbTHKDP2px0aiVfMs" Name="Mouse" Kind="InputPin" />
               <Pin Id="TcFBqSbr5aDM1BdeShl7En" Name="Keyboard" Kind="InputPin" />
               <Pin Id="GrtzkLMflPtOEiAKBwPnbs" Name="Enabled" Kind="InputPin" />
@@ -234,6 +226,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.8.40-gb09bf2efc6" />
-  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2020.3.0-0082-g7f8ac28314" />
+  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.8.57-g04c5d1dc54" />
+  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2020.3.0-0093-g0962957380" />
 </Document>
