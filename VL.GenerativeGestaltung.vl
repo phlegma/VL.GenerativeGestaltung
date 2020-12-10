@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2020.3.0.93" Version="0.128">
-  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2020.3.0-0093-g0962957380" />
+<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2020.3.0.102" Version="0.128">
+  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
   <Patch Id="OyOxAdjTEsdQLQFEaY33Hm">
     <Canvas Id="Rqeuu1Kl2x3Nuwhlo82CUx" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -156,9 +156,10 @@
               </Pin>
               <Pin Id="F4rzsiYsjqxOAmnG0pvncj" Name="Result" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="ICOyFTRUBtILyMxsX7FwI8" Bounds="568,271" />
-            <ControlPoint Id="ENWwoJ9DUSDOcWyumoVsfc" Bounds="617,269" />
+            <ControlPoint Id="ICOyFTRUBtILyMxsX7FwI8" Bounds="602,271" />
+            <ControlPoint Id="ENWwoJ9DUSDOcWyumoVsfc" Bounds="651,269" />
             <ControlPoint Id="EA8IcYoJia8NjFUhV3B97J" Bounds="508,274" />
+            <ControlPoint Id="JFmUOuBPGcXPArplyeNzYM" Bounds="555,271" />
           </Canvas>
           <Patch Id="LOYcQpRVavyNpCFhz1dXTm" Name="Create" />
           <Patch Id="ObTUAJ7ADG2MTVG3jbs2Lv" Name="Update">
@@ -175,6 +176,7 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="TfOhRapvT3PN3SRWIJ6wJJ" Name="Color" Kind="InputPin" Bounds="513,274" />
+            <Pin Id="FQf2ZkdlKkALTNYVuwlU1y" Name="Clear" Kind="InputPin" Bounds="548,256" />
           </Patch>
           <ProcessDefinition Id="HUKVGFHPHsyQIZdRN5zKZQ">
             <Fragment Id="LABXyNRkRbtPzwbIJAVOVJ" Patch="LOYcQpRVavyNpCFhz1dXTm" Enabled="true" />
@@ -202,6 +204,8 @@
           <Link Id="CA9Nl8q2b0YL33vK6Al7fS" Ids="U71F3KaHwNBMRe8Y4OoZau,ENWwoJ9DUSDOcWyumoVsfc" IsHidden="true" />
           <Link Id="PBmrNzv66xGPpEg46aEiGm" Ids="EA8IcYoJia8NjFUhV3B97J,NrcGTYWSXilLfGa5PFSXcL" />
           <Link Id="GPtfumRJIpyNsiP0HaGYN8" Ids="TfOhRapvT3PN3SRWIJ6wJJ,EA8IcYoJia8NjFUhV3B97J" IsHidden="true" />
+          <Link Id="LojZ4CCq0FwMWuNr0IjjxE" Ids="JFmUOuBPGcXPArplyeNzYM,F8iESijgoA2NS2yH73pXTu" />
+          <Link Id="IREMZgEnhB9QTa0eGc6Dnt" Ids="FQf2ZkdlKkALTNYVuwlU1y,JFmUOuBPGcXPArplyeNzYM" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
@@ -226,6 +230,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.8.57-g04c5d1dc54" />
-  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2020.3.0-0093-g0962957380" />
+  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.8.79-gd55713e492" />
+  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
 </Document>

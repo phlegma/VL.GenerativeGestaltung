@@ -98,13 +98,14 @@
             <Pin Id="QcoDm6OwZcCNwhjAWJxGUV" Name="Keyboard" Kind="OutputPin" />
             <Pin Id="B86yWSpO9YrNJj9F1eQg90" Name="Pressed Keys" Kind="OutputPin" />
           </Node>
-          <Node Bounds="270,1031,85,19" Id="AvzbplSVdmOO8wq9OIigct">
+          <Node Bounds="250,1033,85,19" Id="AvzbplSVdmOO8wq9OIigct">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
             </p:NodeReference>
             <Pin Id="JuE7F9mmNXsMPY4bF5n9N2" Name="Input" Kind="InputPin" />
             <Pin Id="Kov9pM4lBC0QMuyhGGI2Wp" Name="Color" Kind="InputPin" />
+            <Pin Id="UkxzgG1PDbgO8MspM6iry7" Name="Clear" Kind="InputPin" />
             <Pin Id="PupfaWHvtaVPmVi7tWGLPK" Name="Width" Kind="InputPin" />
             <Pin Id="FgsFwWDGfU5P4hUnm1RKCr" Name="Height" Kind="InputPin" />
             <Pin Id="LXgL3wPaUz5M83bjzpS4Tx" Name="Write" Kind="InputPin" />
