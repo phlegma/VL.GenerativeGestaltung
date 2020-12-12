@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="J3Yladxba2tPKhAjIsEp9v" LanguageVersion="2020.3.0.82" Version="0.128">
-  <NugetDependency Id="IHaf1Yvumq9Om0VXsoudgS" Location="VL.CoreLib" Version="2020.3.0-0082-g7f8ac28314" />
+<Document xmlns:p="property" Id="J3Yladxba2tPKhAjIsEp9v" LanguageVersion="2020.3.0.102" Version="0.128">
+  <NugetDependency Id="IHaf1Yvumq9Om0VXsoudgS" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
   <Patch Id="BmaMnQQFGKuPGFpTWNPe1g">
     <Canvas Id="IAFCev10HDhPcFCkwLp5p7" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
@@ -485,13 +485,14 @@
             <Pin Id="MrOeRM2WiiaQJCbGS7VALL" Name="Keyboard" Kind="OutputPin" />
             <Pin Id="Fi9Vj3ziLOwPtZ4WbNnXqF" Name="Pressed Keys" Kind="OutputPin" />
           </Node>
-          <Node Bounds="221,981,85,19" Id="AQzpFGsTWXyLhIXRu267S4">
+          <Node Bounds="204,985,105,19" Id="AQzpFGsTWXyLhIXRu267S4">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
             </p:NodeReference>
             <Pin Id="HtCY9wd9mnYMez0Ezjdrsz" Name="Input" Kind="InputPin" />
             <Pin Id="B7abo5UdIB5LcG0gKMdobZ" Name="Color" Kind="InputPin" />
+            <Pin Id="EzT4Kd3I3WBPvxG6CzlBEZ" Name="Clear" Kind="InputPin" />
             <Pin Id="PLGSWCjmMPyPq9ujZyWRMV" Name="Width" Kind="InputPin" />
             <Pin Id="I2hrJEUiw2CPSAwwt8a0L8" Name="Height" Kind="InputPin" DefaultValue="300">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -943,6 +944,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="CWwchVPhOCEMqCv9iXJHjS" Location="VL.Skia" Version="2020.3.0-0082-g7f8ac28314" />
+  <NugetDependency Id="CWwchVPhOCEMqCv9iXJHjS" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
   <DocumentDependency Id="I5BO7gxWTDpNP9bxodxzvc" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="VfeYIVz63LHL56SLLOqu5Q" LanguageVersion="2020.3.0.93" Version="0.128">
-  <NugetDependency Id="Q9HzaMPHYC5LmdbtxA4wln" Location="VL.CoreLib" Version="2020.3.0-0093-g0962957380" />
+<Document xmlns:p="property" Id="VfeYIVz63LHL56SLLOqu5Q" LanguageVersion="2020.3.0.102" Version="0.128">
+  <NugetDependency Id="Q9HzaMPHYC5LmdbtxA4wln" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
   <Patch Id="T6jg0NH0LckLw7m01NTneI">
     <Canvas Id="TF3Ki1YEdfXObuMYTjCitw" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -306,6 +306,7 @@
             </p:NodeReference>
             <Pin Id="IT02q3JbzNFQIbda5dGlnD" Name="Input" Kind="InputPin" />
             <Pin Id="LQyRBYd3vbiNdqv3ND53WS" Name="Color" Kind="InputPin" />
+            <Pin Id="TvtfgOgA4G3NkFG69Zhzed" Name="Clear" Kind="InputPin" />
             <Pin Id="BWnT2rVAdo3MxfXI90xx6h" Name="Width" Kind="InputPin" />
             <Pin Id="SGX8gcu1LaSPrqG6TgHWOL" Name="Height" Kind="InputPin" DefaultValue="300">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -364,7 +365,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="GGKuLCuLFyRLXQMAs2JYqS" Location="VL.Stride" Version="0.8.57-g04c5d1dc54" />
-  <NugetDependency Id="TkzfjWWRBQFQTtTwEcQP20" Location="VL.Skia" Version="2020.3.0-0093-g0962957380" />
+  <NugetDependency Id="GGKuLCuLFyRLXQMAs2JYqS" Location="VL.Stride" Version="0.8.79-gd55713e492" />
+  <NugetDependency Id="TkzfjWWRBQFQTtTwEcQP20" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
   <DocumentDependency Id="IT0DfOjCV3ALvFvKQk7NCU" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>

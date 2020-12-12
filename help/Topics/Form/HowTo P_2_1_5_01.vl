@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SGxYnpP1G26MCmReINlLYV" LanguageVersion="2020.3.0.82" Version="0.128">
-  <NugetDependency Id="VOS2DmWE5NBMSR7FdDhCOr" Location="VL.CoreLib" Version="2020.3.0-0082-g7f8ac28314" />
+<Document xmlns:p="property" Id="SGxYnpP1G26MCmReINlLYV" LanguageVersion="2020.3.0.102" Version="0.128">
+  <NugetDependency Id="VOS2DmWE5NBMSR7FdDhCOr" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
   <Patch Id="CfFy95Vn02yLEdoniHsxKy">
     <Canvas Id="NRX5tk2yzOOP5MKOGcim1M" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -79,6 +79,7 @@
             </p:NodeReference>
             <Pin Id="P5TctD1Ud62N18BseE4TXB" Name="Input" Kind="InputPin" />
             <Pin Id="RZ5sy6wbYKXNCgdGdxre9A" Name="Color" Kind="InputPin" />
+            <Pin Id="AdapBKnXlSfPbQqZLcPeu3" Name="Clear" Kind="InputPin" />
             <Pin Id="Ab6syzeXlvQOxs1SrI8Lz3" Name="Width" Kind="InputPin" DefaultValue="1024">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Integer32" />
@@ -141,6 +142,8 @@
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
             <Pin Id="D0PrxRNyPRIN8XEzJWjzkn" Name="Break" Kind="OutputPin" />
+            <ControlPoint Id="OUVliwJveHKOMndaIAcjqC" Bounds="496,445" Alignment="Top" />
+            <ControlPoint Id="L8NwoBz2u2iPoeoWZLoQUR" Bounds="516,683" Alignment="Bottom" />
             <Patch Id="IIi0u7M0h8CNTB0ly3tRKb" ManuallySortedPins="true">
               <Patch Id="KNFh3pmftANLbFyfmYoaKZ" Name="Create" ManuallySortedPins="true" />
               <Patch Id="NSDbnswxnzcOWVAFEfshKy" Name="Update" ManuallySortedPins="true" />
@@ -197,11 +200,7 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="Switch (Boolean)" />
                 </p:NodeReference>
-                <Pin Id="CEVB0EP5fPAMosMxgVpqTf" Name="Condition" Kind="InputPin">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                </Pin>
+                <Pin Id="CEVB0EP5fPAMosMxgVpqTf" Name="Condition" Kind="InputPin" />
                 <Pin Id="SnGRUsL1QlLNy8vHB7QjWT" Name="Input" Kind="InputPin" />
                 <Pin Id="TcjhKkbEs36OUry66Fyh5d" Name="Input 2" Kind="InputPin" />
                 <Pin Id="QEPY7gn7NsXLtdc5dMOHMx" Name="Output" Kind="OutputPin" />
@@ -233,8 +232,6 @@
                 <Pin Id="QlUk0gB6haxPrGxSHMBgYH" Name="Output" Kind="OutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="OUVliwJveHKOMndaIAcjqC" Bounds="496,445" Alignment="Top" />
-            <ControlPoint Id="L8NwoBz2u2iPoeoWZLoQUR" Bounds="516,683" Alignment="Bottom" />
           </Node>
           <Node Bounds="722,843,44,19" Id="AgEsCfr9oA4L69atLfjV4Q">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
@@ -573,7 +570,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="KkSlHT9HuVIMO1rBJx3zZm" Location="VL.Stride" Version="0.8.40-gb09bf2efc6" />
-  <NugetDependency Id="AFkPNDW0fLJLWUtP4MrL2K" Location="VL.Skia" Version="2020.3.0-0082-g7f8ac28314" />
+  <NugetDependency Id="KkSlHT9HuVIMO1rBJx3zZm" Location="VL.Stride" Version="0.8.79-gd55713e492" />
+  <NugetDependency Id="AFkPNDW0fLJLWUtP4MrL2K" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
   <DocumentDependency Id="VLrKSvpqNuRNcByLd27AIu" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
