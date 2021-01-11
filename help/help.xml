@@ -28,6 +28,7 @@
 		</Subtopic>
 		<Subtopic title="P.4. Bild">
 			<VLDocument link="Topics\Bild\HowTo P_4_0_01.vl"/>
+			<VLDocument link="Topics\Bild\HowTo P_4_1_1_01.vl"/>
 		</Subtopic>
 		<Subtopic title="M.1. Zufall und Rauschen">
 			<VLDocument link="Topics\RandomNoise\HowTo M_1_2_01.vl"/>
