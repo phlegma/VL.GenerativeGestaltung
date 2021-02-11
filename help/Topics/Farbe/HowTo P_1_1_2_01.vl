@@ -173,7 +173,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="HrJSKeP2CNfN8iIDUyYVp6" Name="Bounds" Kind="InputPin" DefaultValue="1125, 50, 600, 400">
+            <Pin Id="HrJSKeP2CNfN8iIDUyYVp6" Name="Bounds" Kind="InputPin" DefaultValue="1122, 80, 600, 399">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -406,11 +406,6 @@
         </Canvas>
         <Patch Id="AEzEx6RCqK1PAigz3MlROw" Name="Create" />
         <Patch Id="UwXdZmxx1UZO0nHgZeU14v" Name="Update" />
-        <!--
-
-    ************************  ************************
-
--->
         <ProcessDefinition Id="G2rG0z5yv1bMHc3GTrlqJT">
           <Fragment Id="Lzner1JAKnFMnsyd6YWlk5" Patch="AEzEx6RCqK1PAigz3MlROw" Enabled="true" />
           <Fragment Id="BlHPQgD1ZkkODS0ZN3woJe" Patch="UwXdZmxx1UZO0nHgZeU14v" Enabled="true" />
