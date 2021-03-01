@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2021.3.0.61" Version="0.128">
-  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2021.3.0-0061-gda7d0b07e5" />
+<Document xmlns:p="property" Id="Ic230trw9mIOoAEfezmLp9" LanguageVersion="2021.4.0.9" Version="0.128">
+  <NugetDependency Id="PlrOVAeORV6Mgxf8tYEp70" Location="VL.CoreLib" Version="2021.4.0-0009-g5a432336cc" />
   <Patch Id="OyOxAdjTEsdQLQFEaY33Hm">
     <Canvas Id="Rqeuu1Kl2x3Nuwhlo82CUx" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -520,7 +520,7 @@
                 <Choice Kind="OperationCallFlag" Name="*" />
               </p:NodeReference>
               <Pin Id="KVwGYure9uqMb1WGtQruF1" Name="Input" Kind="InputPin" />
-              <Pin Id="PJKl3CdjRVyPWWoClfCYqD" Name="Input 2" Kind="InputPin" DefaultValue="-0.9899999, -0.9899999">
+              <Pin Id="PJKl3CdjRVyPWWoClfCYqD" Name="Input 2" Kind="InputPin" DefaultValue="-1, -1">
                 <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Vector2" />
                 </p:TypeAnnotation>
@@ -543,11 +543,6 @@
             </Pin>
             <Pin Id="VpSqL0bGAviM65MffFK5WK" Name="Output" Kind="OutputPin" Bounds="336,412" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="SZ8VUn9Qi9ENEyBvzreURQ">
             <Fragment Id="RUsOqmHd4IsOu7PBcsiRhB" Patch="GH2OqoIQj2gQSlv5wLc5bF" Enabled="true" />
             <Fragment Id="JMsOoJ3LJh0QKgFYhcs6D0" Patch="ONuojrogBN2OQv3JP83p3v" Enabled="true" />
@@ -585,6 +580,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.9.69-g4e3d47610f" />
-  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2021.3.0-0061-gda7d0b07e5" />
+  <NugetDependency Id="P6TpbNLZHbWNQN7R1IqxzI" Location="VL.Stride" Version="0.9.90-g2bdc50f48e" />
+  <NugetDependency Id="A0H0Tcj7OWfL5hcwKESd9R" Location="VL.Skia" Version="2021.4.0-0009-g5a432336cc" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CtBKRf20LAAOF7T9w1eA3q" LanguageVersion="2020.3.0.102" Version="0.128">
-  <NugetDependency Id="HEXocn8LjVgOBGV5201C9B" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
+<Document xmlns:p="property" Id="CtBKRf20LAAOF7T9w1eA3q" LanguageVersion="2021.4.0.9" Version="0.128">
+  <NugetDependency Id="HEXocn8LjVgOBGV5201C9B" Location="VL.CoreLib" Version="2021.4.0-0009-g5a432336cc" />
   <Patch Id="Qn8iV8qGQDbLnFZnsvK9lk">
     <Canvas Id="BVNudmCPhjoLbHodDINJP9" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -883,10 +883,11 @@
         <Link Id="CQKo10VGqHIQa3RQ4UsaFV" Ids="PTBFk10GbMJNQYRMXcwoM4,PZ5tsNVdDQUO2QVEZURCtD" />
         <Link Id="KTWeOs3vTQqO36HO4Ek5BY" Ids="Bie6VPVi7LKMQa2PLg9qey,L82qiReZl2hQQW8bQ223pH" />
         <Link Id="Bwv7axoYUFoLWwitrsiZpl" Ids="JfBubpRIXaxNLQEL8xGLBc,DOJCxVfG5INP1dBY85sqny" />
+        <Link Id="OldKoN3Sha5MiHreKtkhHZ" Ids="AC4KRG9rEylOGTBBN6P8h1,BQEJ67ayUulO0DioMos2Yu" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="QsScc7ClS3XO29IHrbtcU9" Location="VL.Stride" Version="0.8.79-gd55713e492" />
+  <NugetDependency Id="QsScc7ClS3XO29IHrbtcU9" Location="VL.Stride" Version="0.9.90-g2bdc50f48e" />
   <DocumentDependency Id="ExVMjJxwBdPNRRlwg2Fma8" Location="../../../VL.GenerativeGestaltung.vl" />
-  <NugetDependency Id="E5h9ixVKOl5NbR6IKidC3S" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="E5h9ixVKOl5NbR6IKidC3S" Location="VL.Skia" Version="2021.4.0-0009-g5a432336cc" />
 </Document>
