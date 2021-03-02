@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="NDKuHOw6ZoIO7JTkaRu4xZ" LanguageVersion="2020.3.0.102" Version="0.128">
-  <NugetDependency Id="Td7Ch3ZEMRiPUfuVCwy85P" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
+<Document xmlns:p="property" Id="NDKuHOw6ZoIO7JTkaRu4xZ" LanguageVersion="2021.4.0.9" Version="0.128">
+  <NugetDependency Id="Td7Ch3ZEMRiPUfuVCwy85P" Location="VL.CoreLib" Version="2021.4.0-0009-g5a432336cc" />
   <Patch Id="S54TvKlXzUFLAHbn67IRhG">
     <Canvas Id="AgXUMBE09cPPlDDbSQhpmH" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -29,7 +29,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="A8qfiK4qw8SLog5wUO7rzy" Name="Bounds" Kind="InputPin" DefaultValue="1089, 38, 575, 556">
+            <Pin Id="A8qfiK4qw8SLog5wUO7rzy" Name="Bounds" Kind="InputPin" DefaultValue="1166, 71, 575, 556">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -105,6 +105,7 @@
             </p:NodeReference>
             <Pin Id="Sb4hui6r2BpNn7qlzh6gH9" Name="Input" Kind="InputPin" />
             <Pin Id="K6HFKSeLOTuNQC3CDNScoO" Name="Color" Kind="InputPin" />
+            <Pin Id="PyTSxMatAqeLugbD1muRKt" Name="Clear" Kind="InputPin" />
             <Pin Id="JVAdDDlex63OnWUvAHLGsa" Name="Width" Kind="InputPin" />
             <Pin Id="FTfGUwTZ6tRP9ksm61aoIH" Name="Height" Kind="InputPin" />
             <Pin Id="Qy9w9QdE7KGQHOIYBkijYO" Name="Write" Kind="InputPin" />
@@ -625,7 +626,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IGr2pba3JuxNFufv5tXGBb" Location="VL.Stride" Version="0.8.79-gd55713e492" />
-  <NugetDependency Id="A4NTtvKdBwINRJutjXzU0W" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="IGr2pba3JuxNFufv5tXGBb" Location="VL.Stride" Version="0.9.90-g2bdc50f48e" />
+  <NugetDependency Id="A4NTtvKdBwINRJutjXzU0W" Location="VL.Skia" Version="2021.4.0-0009-g5a432336cc" />
   <DocumentDependency Id="NNEgMTBwM1VM56A24qWxKP" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>

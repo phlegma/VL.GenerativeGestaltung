@@ -99,15 +99,6 @@
             </Pin>
             <Pin Id="FF4WciIVTq9PiEbFZ3lnQr" Name="Write" Kind="InputPin" />
           </Node>
-          <Pad Id="TrfCDHcPPUKMsvKdMt1QVY" Bounds="355,1196,194,58" ShowValueBox="true" isIOBox="true" Value="By hitting 's' or 'S' the Image is saved next to the helppatch.  ">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">9</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
           <Pad Id="JEnBf5iPASjMn9yhxXv1Zf" Comment="Color" Bounds="769,1173,136,15" ShowValueBox="true" isIOBox="true" Value="1, 1, 1, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
@@ -692,8 +683,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="724,738,54,19" Id="Tue9COmcIWSNNmP1zM5HQa">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+            </p:NodeReference>
+            <Pin Id="Q8d2Yqwf5niO9huE0INy8U" Name="Simulate" Kind="InputPin" />
+            <Pin Id="DcXBxz4MLKxLH1GJgMH8zX" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
-        <Patch Id="UBRJ51HRQQlNucOQ2OEmn4" Name="Create" />
+        <Patch Id="UBRJ51HRQQlNucOQ2OEmn4" Name="Create" ParticipatingElements="U7jBdJJSIW4MqwdfxDvBjy" />
         <Patch Id="P94sU32FfzWL8xu1hSoVRE" Name="Update" />
         <ProcessDefinition Id="G1hB4K1qli1L151vtu5uta">
           <Fragment Id="GuUj0fxu4M8LSAIcN3gtZG" Patch="UBRJ51HRQQlNucOQ2OEmn4" Enabled="true" />
@@ -784,6 +783,7 @@
         <Link Id="Jv3bKnBJ2jKLiutT982SfH" Ids="ROEK1ULnerwLzUAdPIQxwj,GGuY0JAT6t1Lm8mkNAl8nY" />
         <Link Id="UlSzTnjbVJJMIJnNjql0oa" Ids="SATELOJkeWENWbRCi7trkm,AFVmHvPvFL4Pe603uKjZqB" />
         <Link Id="JE3qfxySkGRPmDr1XvRNz7" Ids="SATELOJkeWENWbRCi7trkm,PhZR8sfagwNPRCC4WfYC5b" />
+        <Link Id="U7jBdJJSIW4MqwdfxDvBjy" Ids="DcXBxz4MLKxLH1GJgMH8zX,SATELOJkeWENWbRCi7trkm" />
       </Patch>
     </Node>
   </Patch>
