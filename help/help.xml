@@ -48,6 +48,7 @@
 			<VLDocument link="Topics\RandomNoise\HowTo M_1_5_02.vl"/>
 		</Subtopic>
 		<Subtopic title="M.1. Schwingungsfiguren">
+			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_1_01.vl"/>
 			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_3_01.vl"/>
 		</Subtopic>
 	</Topic>
