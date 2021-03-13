@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BggvVpcIU5JPlsIbTMkqTc" LanguageVersion="2020.3.0.102" Version="0.128">
-  <NugetDependency Id="RrUT32xf79AMkfZuDCo5gR" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
+<Document xmlns:p="property" Id="BggvVpcIU5JPlsIbTMkqTc" LanguageVersion="2021.4.0.15" Version="0.128">
+  <NugetDependency Id="RrUT32xf79AMkfZuDCo5gR" Location="VL.CoreLib" Version="2021.4.0-0015-g65ad378d35" />
   <Patch Id="SO76CUiLRFGL2virr2PWjo">
     <Canvas Id="PpcfwnmLjllM7WdMdUBdnp" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -186,7 +186,11 @@
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="F5vWwRqKfXNQBCXnpR8lxS" Name="Rotation" Kind="InputPin" />
-            <Pin Id="DTGAHpOFRn9MFHdRziLnwe" Name="Translation" Kind="InputPin" />
+            <Pin Id="DTGAHpOFRn9MFHdRziLnwe" Name="Translation" Kind="InputPin" DefaultValue="-1.56, 0">
+              <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Vector2" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="IV6PKoKbPJYPWGKoKvvV87" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="561,344,86,19" Id="Aiz9IwcsMJHNgJYg5eBl0B">
@@ -395,7 +399,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O6rvSElIbeGLxy24J54bq7" Location="VL.Stride" Version="0.8.79-gd55713e492" />
-  <NugetDependency Id="T2KI98UcDx8N9DuCOLzKZK" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="O6rvSElIbeGLxy24J54bq7" Location="VL.Stride" Version="0.9.94-gf25d2ce853" />
+  <NugetDependency Id="T2KI98UcDx8N9DuCOLzKZK" Location="VL.Skia" Version="2021.4.0-0015-g65ad378d35" />
   <DocumentDependency Id="VGc2l5V6881LA7veWv5ATq" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
