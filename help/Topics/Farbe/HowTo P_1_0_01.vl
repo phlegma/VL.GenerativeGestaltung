@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="OQTey1ShhT3OoSiW9Mc1RL" LanguageVersion="2020.3.0.102" Version="0.128">
-  <NugetDependency Id="JVkDn8IdR4jNQPW9d0pNaQ" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
+<Document xmlns:p="property" Id="OQTey1ShhT3OoSiW9Mc1RL" LanguageVersion="2021.4.0.21" Version="0.128">
+  <NugetDependency Id="JVkDn8IdR4jNQPW9d0pNaQ" Location="VL.CoreLib" Version="2021.4.0-0021-g35811d5fa4" />
   <Patch Id="HayJs2mUnZWOC9xe26s1ou">
     <Canvas Id="ViDlERGddYpLtN2WXni4MF" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
@@ -250,7 +250,7 @@
             </Pin>
             <Pin Id="J1pjSbHOzDdQbYiZLFFEbG" Name="Write" Kind="InputPin" />
           </Node>
-          <Pad Id="BUf7sPG2kJyMtqgD5b0bxS" Bounds="18,512,194,58" ShowValueBox="true" isIOBox="true" Value="By hitting 's' or 'S' the Image is saved next to the helppatch.  ">
+          <Pad Id="RMMVgPHGLydMHSMZijeGZi" Bounds="44,128,298,205" ShowValueBox="true" isIOBox="true" Value="&#xD;&#xA;P_1_0_01&#xD;&#xA;changing colors and size by moving the mouse&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x   : size&#xD;&#xA;position y   : color&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;s                 : save png&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -289,7 +289,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LZyY6c0uiQROdSHqiHRTdS" Location="VL.Stride" Version="0.8.79-gd55713e492" />
-  <NugetDependency Id="OWEwpa63pwZPBMjvT5EAp3" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="LZyY6c0uiQROdSHqiHRTdS" Location="VL.Stride" Version="0.9.96-g5960125e5d" />
+  <NugetDependency Id="OWEwpa63pwZPBMjvT5EAp3" Location="VL.Skia" Version="2021.4.0-0021-g35811d5fa4" />
   <DocumentDependency Id="FCVDokHlav3PjnKP6jCiwo" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
