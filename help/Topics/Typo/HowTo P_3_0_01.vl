@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BJDQBA511qhPLSZBWNuuGD" LanguageVersion="2020.3.0.102" Version="0.128">
-  <NugetDependency Id="PPAmft2lOsTLTiE0GxOXzG" Location="VL.CoreLib" Version="2020.3.0-0102-g094033fb54" />
+<Document xmlns:p="property" Id="BJDQBA511qhPLSZBWNuuGD" LanguageVersion="2020.3.0.93" Version="0.128">
+  <NugetDependency Id="PPAmft2lOsTLTiE0GxOXzG" Location="VL.CoreLib" Version="2020.3.0-0093-g0962957380" />
   <Patch Id="PpedHxGSLVUOuNIHud9268">
     <Canvas Id="IU5GkSQFNrNMiMIcIAHm5f" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -490,7 +490,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IXODyddpQZYL322bdMk5CO" Location="VL.Stride" Version="0.8.79-gd55713e492" />
-  <NugetDependency Id="DeOFBhmDCibQQldMtwD76R" Location="VL.Skia" Version="2020.3.0-0102-g094033fb54" />
+  <NugetDependency Id="IXODyddpQZYL322bdMk5CO" Location="VL.Stride" Version="0.8.57-g04c5d1dc54" />
+  <NugetDependency Id="DeOFBhmDCibQQldMtwD76R" Location="VL.Skia" Version="2020.3.0-0093-g0962957380" />
   <DocumentDependency Id="CB5AWLAA9yaONgGsaop52L" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
