@@ -546,7 +546,7 @@
             </Pin>
             <Pin Id="UeQAzoO3W1qMR2GbVuBfjT" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="LJBErG2IsvWMFhAmFmSm18" Comment="" Bounds="718,654,35,28" ShowValueBox="true" isIOBox="true" Value="0.3, 0.3">
+          <Pad Id="LJBErG2IsvWMFhAmFmSm18" Comment="" Bounds="718,654,35,28" ShowValueBox="true" isIOBox="true" Value="0.2, 0.2">
             <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Vector2" />
             </p:TypeAnnotation>

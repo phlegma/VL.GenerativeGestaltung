@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="J9xDZcB6x1wNPREqqZo2tn" LanguageVersion="2021.4.0.15" Version="0.128">
-  <NugetDependency Id="TTiJqpGth9sM0dtckizI8G" Location="VL.CoreLib" Version="2021.4.0-0015-g65ad378d35" />
+<Document xmlns:p="property" Id="J9xDZcB6x1wNPREqqZo2tn" LanguageVersion="2021.4.0.21" Version="0.128">
+  <NugetDependency Id="TTiJqpGth9sM0dtckizI8G" Location="VL.CoreLib" Version="2021.4.0-0021-g35811d5fa4" />
   <Patch Id="QntCeK2ncrELpV4IUwuPId">
     <Canvas Id="HQUedKkgtR1QHUqxtNH3mX" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="I171hn5brUzPQH292qlEuO">
         <Canvas Id="VTfF8segGBONwXqM0tF22I" CanvasType="Group">
-          <Node Bounds="152,1093,185,19" Id="VGkH4q9aVTaNUIPGD7jfe4">
+          <Node Bounds="281,1104,185,19" Id="VGkH4q9aVTaNUIPGD7jfe4">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -50,7 +50,7 @@
             <Pin Id="ERZjtvxjPA1NWkSG5G7DzT" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="Tclk5c1bjKcMWIsIer0qCm" Name="Render Time" Kind="OutputPin" />
           </Node>
-          <Node Bounds="32,1039,89,19" Id="NAvPxE2OQwwOxj8Gw0qdNj">
+          <Node Bounds="161,1050,89,19" Id="NAvPxE2OQwwOxj8Gw0qdNj">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -60,7 +60,7 @@
             <Pin Id="NTSGBQWeS24Ls2V2Pgliwc" Name="Input 2" Kind="InputPin" />
             <Pin Id="NdYOxD6B7DpLjFVgdFEDy6" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="34,814,105,19" Id="QOMag4ifJABM9iBmT9SAYj">
+          <Node Bounds="106,854,105,19" Id="QOMag4ifJABM9iBmT9SAYj">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Mouse" />
@@ -73,7 +73,7 @@
             <Pin Id="Df7hgdFOURgPkQWJ6A2Z6w" Name="Right Pressed" Kind="OutputPin" />
             <Pin Id="OXiiXxfFEwrPYrO2dpzBdA" Name="WheelDelta" Kind="OutputPin" />
           </Node>
-          <Node Bounds="62,876,59,19" Id="OBVBHM2I7jFPF683em24vC">
+          <Node Bounds="134,916,59,19" Id="OBVBHM2I7jFPF683em24vC">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Keyboard" />
@@ -83,7 +83,7 @@
             <Pin Id="J4FoBZVjezYQLT6ordBcak" Name="Keyboard" Kind="OutputPin" />
             <Pin Id="OXNL8LjSMWKP0yFayFsrev" Name="Pressed Keys" Kind="OutputPin" />
           </Node>
-          <Node Bounds="31,1090,105,19" Id="IH2XVvLlH80L0q1VXyqbrq">
+          <Node Bounds="160,1101,105,19" Id="IH2XVvLlH80L0q1VXyqbrq">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteFile" />
@@ -104,7 +104,7 @@
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="86,930,76,19" Id="Ohly3UOk1iyPGyIjayFpfP">
+          <Node Bounds="215,941,76,19" Id="Ohly3UOk1iyPGyIjayFpfP">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ClientBounds" />
@@ -113,10 +113,9 @@
             <Pin Id="MUnBsEIZIvMK93bFVSl8ID" Name="Viewport Bounds In World Space" Kind="OutputPin" />
             <Pin Id="FacMsNN5OCxM6QJ6gQvE3G" Name="Viewport Size In World Space" Kind="OutputPin" />
           </Node>
-          <Pad Id="LKRWA0qLZdaPHowYBROpW0" SlotId="EvWVN4ac2IBLaGw87pZRQy" Bounds="159,970" />
-          <Pad Id="UqWi4SWeQokQWXjoIcLfSj" SlotId="Fq8vCjoTm6fMDFsCunIqo8" Bounds="56,857" />
-          <Pad Id="CwJkt25ljHfLyZ8Se6xTiK" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="118,914" />
-          <Node Bounds="32,1006,60,19" Id="ME58qGZ2B4QPm2bXkXFc40">
+          <Pad Id="LKRWA0qLZdaPHowYBROpW0" SlotId="EvWVN4ac2IBLaGw87pZRQy" Bounds="288,981" />
+          <Pad Id="UqWi4SWeQokQWXjoIcLfSj" SlotId="Fq8vCjoTm6fMDFsCunIqo8" Bounds="128,897" />
+          <Node Bounds="161,1017,60,19" Id="ME58qGZ2B4QPm2bXkXFc40">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -126,7 +125,7 @@
             <Pin Id="O2fS2rE0JWKOnHq4UBSkmO" Name="Output" Kind="OutputPin" />
             <Pin Id="NKgKAr3zUKWNOpeB70pRC0" Name="Input 3" Kind="InputPin" />
           </Node>
-          <Pad Id="CHWZSXwk925NlDt2S5o6Hn" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="133,1070" />
+          <Pad Id="CHWZSXwk925NlDt2S5o6Hn" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="262,1081" />
           <Node Bounds="489,69,63,19" Id="MyapXhwsXhsLZZHyDKzf2w">
             <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="VL.CoreLib.IO.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -789,38 +788,6 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="RU61TdeExEtO46yxuyxFKn" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="670,400" />
-          <Node Bounds="667,432,60,19" Id="QnPvlin6j0DPuNqgeN2zX5">
-            <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="KeyMatch" />
-            </p:NodeReference>
-            <Pin Id="GBznamfaBHuLfMAGQfpAYB" Name="Keys" Kind="InputPin" />
-            <Pin Id="IQApAs8ZIVePCy4ir79Xhj" Name="Key Name" Kind="InputPin" DefaultValue="A">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="String" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="RfLddazvW0nMHc6SCza7BM" Name="Is Down" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="666,458,56,19" Id="FSiMHHGETgXLHhTMKQnWuS">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="TogEdge" />
-            </p:NodeReference>
-            <Pin Id="IwOKBcohmnHPKzzkuHFSO0" Name="Value" Kind="InputPin" />
-            <Pin Id="SDXpqqNOr3wPUZUH34nyub" Name="Up Edge" Kind="OutputPin" />
-            <Pin Id="K479Gz0CusWLfv6VGetx99" Name="Down Edge" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="666,484,48,19" Id="JwfdzsWC4y2OZwWkJbPKl5">
-            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Toggle" />
-            </p:NodeReference>
-            <Pin Id="P4M5bdkUXwLOjXCPEykm0g" Name="Flip" Kind="ApplyPin" />
-            <Pin Id="ADYVNb1GvMpMYwgKW9LTDJ" Name="Reset" Kind="ApplyPin" />
-            <Pin Id="FRpFRaqJTVMNcqXIScSzAt" Name="Value" Kind="OutputPin" />
-          </Node>
           <Pad Id="A2WDxk1tNMLOPaUKGIecGJ" Bounds="9,102,440,228" ShowValueBox="true" isIOBox="true" Value="P_3_1_3_01&#xD;&#xA;analysing and sorting the letters of a text&#xD;&#xA;changing the letters alpha value in relation to frequency&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x          : interpolate between normal text and sorted position&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;a                   : toggle alpha mode&#xD;&#xA;s                   : save png&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -837,6 +804,22 @@
             </p:NodeReference>
             <Pin Id="Knu54rdniMgLOptvcvqjKK" Name="Simulate" Kind="InputPin" />
             <Pin Id="Ca8ffLi5ClVLpkoZazTFmq" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="FNskRsnffKuLISAmcOD7kx" SlotId="CCUEFxSD2FVLZFogNBsJQ8" Bounds="162,978" />
+          <Pad Id="EV8FM9LcgAVPahmNgSxVPL" SlotId="CCUEFxSD2FVLZFogNBsJQ8" Bounds="690,456" />
+          <Node Bounds="688,469,64,19" Id="GPMPsYbaNHIOL7JIUe3tqH">
+            <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="KeyToggle" />
+            </p:NodeReference>
+            <Pin Id="FBpza9uLYg6P005XUfAsJD" Name="Keyboard Device" Kind="InputPin" />
+            <Pin Id="G7wQRNvkHTeMNqqp9CGox4" Name="Reset Toggle" Kind="InputPin" />
+            <Pin Id="Q9C4OT7bNAYPPvGepB6ejU" Name="Key" Kind="InputPin" DefaultValue="A">
+              <p:TypeAnnotation LastCategoryFullName="IO.Keyboard" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Keys" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="S1iIguq0QwlLUKNrfzJlek" Name="Result" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="UBRJ51HRQQlNucOQ2OEmn4" Name="Create" />
@@ -856,7 +839,6 @@
         <Slot Id="EvWVN4ac2IBLaGw87pZRQy" Name="Viewport Size" />
         <Slot Id="Fq8vCjoTm6fMDFsCunIqo8" Name="Position" />
         <Slot Id="DxwnqfvCD6pPBDIWuw4z9k" Name="Pressed Keys" />
-        <Link Id="BvNSrjdL0GwNm2Jh3Bf59h" Ids="OXNL8LjSMWKP0yFayFsrev,CwJkt25ljHfLyZ8Se6xTiK" />
         <Link Id="STeAIwmhhWSMG8cEaaUP7T" Ids="O2fS2rE0JWKOnHq4UBSkmO,NYwmCsKaFSNMZ0HslFaXIg" />
         <Link Id="GccYtjriHPINqMkYHKTZmF" Ids="HW78t9jeJyvODX1Kr9wZub,VxOCToAiRNnMelSj33YsMS" />
         <Link Id="DdBWK6eTFPPL2q0hxO7pXu" Ids="F6FixiZhgiFP2ieQf7XblP,FLPzQfqxXE9L90H0fxagKC" />
@@ -942,16 +924,16 @@
         <Link Id="GDanJvxyZnQLWY5UO29lUt" Ids="NyumbkaTbjdMoy79Ck73d1,KfmGlfkAX25OWFkr3MO0Gj" />
         <Link Id="FevZ7j1hg8TMrNjFDoU2CZ" Ids="KfmGlfkAX25OWFkr3MO0Gj,CSsjjBsbWxEPzbemDUYbxi" />
         <Link Id="JMp6Q8AAmVWL2RPl5XPAhs" Ids="KfmGlfkAX25OWFkr3MO0Gj,BtGE18OGF0pNpse7qTC0yp" />
-        <Link Id="EkPnWKTn7jnMP8KSUiKus5" Ids="RU61TdeExEtO46yxuyxFKn,GBznamfaBHuLfMAGQfpAYB" />
-        <Link Id="SX9oD1HTD64N6MZaDaoDcX" Ids="RfLddazvW0nMHc6SCza7BM,IwOKBcohmnHPKzzkuHFSO0" />
-        <Link Id="AKT0igWfMAqQPUdPAfdfxb" Ids="SDXpqqNOr3wPUZUH34nyub,P4M5bdkUXwLOjXCPEykm0g" />
         <Link Id="ManoC6JaHhmLJM9gHhIaDj" Ids="KNY6aNLks6gQZEkfIJA2B3,I9bKDA4coJVM28m8IAbGLc" />
-        <Link Id="FxPGdeMlfTUQSjKW2KDIlP" Ids="FRpFRaqJTVMNcqXIScSzAt,STpFy0svftXODQSxo0fiqf" />
         <Link Id="SJhSkyvdXRJMtHZKVhhveF" Ids="Ca8ffLi5ClVLpkoZazTFmq,DvAC6cYkGX2QSC6Y12rQt0" />
+        <Slot Id="CCUEFxSD2FVLZFogNBsJQ8" Name="Keyboard" />
+        <Link Id="B1Shfo3wlrfLnb1wC4cYsP" Ids="J4FoBZVjezYQLT6ordBcak,FNskRsnffKuLISAmcOD7kx" />
+        <Link Id="R2qgneU6nuUPvVAVKD3fAC" Ids="EV8FM9LcgAVPahmNgSxVPL,FBpza9uLYg6P005XUfAsJD" />
+        <Link Id="UdukEsVTuqrPbFL7dKFLdJ" Ids="S1iIguq0QwlLUKNrfzJlek,STpFy0svftXODQSxo0fiqf" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="QQDwqC4yn3sL7khqVBaUpc" Location="VL.Skia" Version="2021.4.0-0015-g65ad378d35" />
+  <NugetDependency Id="QQDwqC4yn3sL7khqVBaUpc" Location="VL.Skia" Version="2021.4.0-0021-g35811d5fa4" />
   <DocumentDependency Id="P91UsHNIgQ6PzAgJqEbbjz" Location="../../../VL.GenerativeGestaltung.vl" />
   <NugetDependency Id="AyhGjrlvL1PPnuINiRRpSy" Location="vl.generativegestaltung" Version="0.0.0.0" />
 </Document>

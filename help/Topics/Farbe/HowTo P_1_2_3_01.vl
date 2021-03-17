@@ -1210,7 +1210,7 @@
             </Patch>
           </Node>
           <Pad Id="KsHfOVUGPK0PvPciBFJpTS" SlotId="AvdRkOuw7uZQD7KGTtScSm" Bounds="901,543" />
-          <Pad Id="KOAQX6jEHbLOgwgCPmCgy6" Bounds="50,107,350,206" ShowValueBox="true" isIOBox="true" Value="P_1_2_3_01&#xD;&#xA;generates specific color palettes&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x/y   : row and coloum count&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;0-9               : creates specific color palettes&#xD;&#xA;s                   : save png&#xD;&#xA;c                   : save color palette">
+          <Pad Id="KOAQX6jEHbLOgwgCPmCgy6" Bounds="50,107,350,206" ShowValueBox="true" isIOBox="true" Value="P_1_2_3_01&#xD;&#xA;generates specific color palettes&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x/y   : row and coloum count&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;0-9               : creates specific color palettes&#xD;&#xA;s                   : save png&#xD;&#xA;">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
