@@ -11,9 +11,9 @@
     <description>Generative Gestaltung – Creative Coding im Web</description>
     <tags>VL,GenerativeGestaltung, Generative, Parasitic Design</tags>
 	<license type="expression">Apache-2.0</license>
-	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
+	<file src="..\*.vl" target="" exclude="" />
     <file src="..\assets\*.*" target="assets" />
     <file src="..\help\**" target="..\help\" />
   </files>
