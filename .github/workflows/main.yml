@@ -20,4 +20,4 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.29
       with:
         nuspec: deployment\VL.GenerativeGestaltung.nuspec
-        nuget-key: ${{ secrets.YOUR_NUGET_KEY }}
+        nuget-key: ${{ secrets.NUGET_KEY }}
