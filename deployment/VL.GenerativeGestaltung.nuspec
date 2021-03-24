@@ -14,7 +14,7 @@
   </metadata>
   <files>
 	<file src="..\*.vl" target="" exclude="" />
-    <file src="..\assets\*.*" target="assets" />
+    <file src="..\assets\**" target="assets" />
     <file src="..\help\**" target="..\help\" />
   </files>
 </package>
