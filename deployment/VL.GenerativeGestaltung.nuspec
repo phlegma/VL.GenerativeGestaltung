@@ -2,22 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.GenerativeGestaltung</id>
-    <version>0.0.1</version>
+    <version>0.4.0-alpha</version>
     <title>VL.Generative Gestaltung</title>
-    <authors>phlegma</authors>
-    <owners>phlegma</owners>
-    <projectUrl>https://gitlab.com/phlegma/vl.generativegestaltung</projectUrl>
+    <authors>phlegma, motzi</authors>
+    <projectUrl>https://github.com/phlegma/VL.GenerativeGestaltung</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Generative Gestaltung v2 Sketches</summary>
     <description>Generative Gestaltung – Creative Coding im Web</description>
-    <copyright>Copyright 2018 @ CopyCat</copyright>
-    <tags>VL,GenerativeGestaltung, Generative, GenerativeGestaltung</tags>
-	<license type="expression">Apache License, Version 2.0</license>
+    <tags>VL,GenerativeGestaltung, Generative, Parasitic Design</tags>
+	<license type="expression">Apache-2.0</license>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
     <file src="..\assets\*.*" target="assets" />
     <file src="..\help\**" target="..\help\" />
-	<file src="nugeticon.png" target="icon\" />
   </files>
 </package>
