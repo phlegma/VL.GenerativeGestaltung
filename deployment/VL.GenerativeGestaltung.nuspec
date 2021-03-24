@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Generative Gestaltung v2 Sketches</summary>
     <description>Generative Gestaltung – Creative Coding im Web</description>
-    <tags>VL,GenerativeGestaltung, Generative, Parasitic Design</tags>
+    <tags>VL,Generative Gestaltung, Parasitic Design</tags>
 	<license type="expression">Apache-2.0</license>
   </metadata>
   <files>
