@@ -13,7 +13,7 @@ To use the latest stable version:
 
 ## Contributing
 
-Feel free to clone the repro an add missing patches. Also you can make a pull request. Also you can send me the patch over any digital communication cannel. 
+Feel free to clone the repro an add missing patches. Also you can make a pull request or send me the patch over any digital communication cannel. 
 
 
 ## Licencing
