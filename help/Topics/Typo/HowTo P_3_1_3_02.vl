@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Ax870V1JKh0NfPFXkR7tuy" LanguageVersion="2021.3.1.89" Version="0.128">
-  <NugetDependency Id="TTiJqpGth9sM0dtckizI8G" Location="VL.CoreLib" Version="2021.3.1" />
+<Document xmlns:p="property" Id="Ax870V1JKh0NfPFXkR7tuy" LanguageVersion="2021.4.0.21" Version="0.128">
+  <NugetDependency Id="TTiJqpGth9sM0dtckizI8G" Location="VL.CoreLib" Version="2021.4.0-0021-g35811d5fa4" />
   <Patch Id="QntCeK2ncrELpV4IUwuPId">
     <Canvas Id="HQUedKkgtR1QHUqxtNH3mX" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -414,7 +414,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="FileReader (String)" />
             </p:NodeReference>
-            <Pin Id="G6PxBBmspc6NVC2gE3U8Z6" Name="File Path" Kind="InputPin" DefaultValue="..\..\..\assets\faust_kurz.txt">
+            <Pin Id="G6PxBBmspc6NVC2gE3U8Z6" Name="File Path" Kind="InputPin" DefaultValue="">
               <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Path" />
               </p:TypeAnnotation>
@@ -1162,12 +1162,16 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="522,35,54,19" Id="E7uUkPmfodeOZY2ANBPPpb">
+          <Node Bounds="549,31,54,19" Id="E7uUkPmfodeOZY2ANBPPpb">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="OnOpen" />
             </p:NodeReference>
-            <Pin Id="Knu54rdniMgLOptvcvqjKK" Name="Simulate" Kind="InputPin" />
+            <Pin Id="Knu54rdniMgLOptvcvqjKK" Name="Simulate" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="Ca8ffLi5ClVLpkoZazTFmq" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="240,1055,44,19" Id="OuFrwV1fnWjOaBOD8dZ01o">
@@ -1303,6 +1307,43 @@
             </p:NodeReference>
             <Pin Id="GM4DmPjcL8pLf2qfiiYDgK" Name="Input" Kind="StateInputPin" />
             <Pin Id="Vyf6aSqc1KKNGEAYH4tUK3" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="ONXIs7E01uLLhkF0GSNhpP" Comment="" Bounds="465,-54,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\assets\faust_kurz.txt">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="464,-15,48,19" Id="F4Y5x2D8H5TLNpwhg1XdgF">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToPath" />
+            </p:NodeReference>
+            <Pin Id="MHaBJ5Nmr3CPmcQzEHV0Kh" Name="Input" Kind="InputPin" />
+            <Pin Id="GapCQyWEpv7NS5roCizcVo" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="464,12,80,26" Id="IvXlWbbM8aUL5OBkf1Y8b9">
+            <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="MakeAbsolute" />
+            </p:NodeReference>
+            <Pin Id="OVyn6LlEp5NOWjsvJJmNha" Name="Input" Kind="StateInputPin" />
+            <Pin Id="RJ33mfGRHI8Pzi0fZdMFib" Name="Base Path" Kind="InputPin" />
+            <Pin Id="LVj6eTQu9wKNigLAD6dtHH" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="538,-41,87,19" Id="QJMl1LGGHS7QJFhcrX5KGu">
+            <p:NodeReference LastCategoryFullName="System.Application" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+            </p:NodeReference>
+            <Pin Id="PSx77LZvkoTOiF5y41BYLz" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="538,-15,48,19" Id="IGK0zP1hlnYPUjrwDNtyt2">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToPath" />
+            </p:NodeReference>
+            <Pin Id="BbsVzuFQnR2LupVgHBwmCV" Name="Input" Kind="InputPin" />
+            <Pin Id="VI5fj4P3ol9NY7JQczs8gX" Name="Result" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="UBRJ51HRQQlNucOQ2OEmn4" Name="Create" />
@@ -1443,10 +1484,15 @@
         <Link Id="LiCuQnA41hcOeBEl8D2bZE" Ids="RggHxFdLWFgQU4WjO7a2Kp,GM4DmPjcL8pLf2qfiiYDgK" />
         <Link Id="J5JrMiZXn4BPksUBBL8QpH" Ids="FUIfs1z2TXQN1tMzNG07Tm,G7MIGBu6FbyNvXaUfRC4N2" />
         <Link Id="D96d7MH71AdLfhiV4w3Vu2" Ids="Vyf6aSqc1KKNGEAYH4tUK3,UYC3hUmmulnM2fKtE7U65P" />
+        <Link Id="BoHhPI2upOSObojRAgls2D" Ids="GapCQyWEpv7NS5roCizcVo,OVyn6LlEp5NOWjsvJJmNha" />
+        <Link Id="CFPMktFjl2LOwSJoHjILhf" Ids="PSx77LZvkoTOiF5y41BYLz,BbsVzuFQnR2LupVgHBwmCV" />
+        <Link Id="Li9FYO5ZJTAN0QV1RjlmWy" Ids="VI5fj4P3ol9NY7JQczs8gX,RJ33mfGRHI8Pzi0fZdMFib" />
+        <Link Id="Li4m5CA8yieNtxeID4NxgZ" Ids="ONXIs7E01uLLhkF0GSNhpP,MHaBJ5Nmr3CPmcQzEHV0Kh" />
+        <Link Id="VTgFIJFaaYwM1u5H1tsKxH" Ids="LVj6eTQu9wKNigLAD6dtHH,G6PxBBmspc6NVC2gE3U8Z6" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="QQDwqC4yn3sL7khqVBaUpc" Location="VL.Skia" Version="2021.3.1" />
+  <NugetDependency Id="QQDwqC4yn3sL7khqVBaUpc" Location="VL.Skia" Version="2021.4.0-0021-g35811d5fa4" />
   <DocumentDependency Id="P91UsHNIgQ6PzAgJqEbbjz" Location="../../../VL.GenerativeGestaltung.vl" />
   <NugetDependency Id="AyhGjrlvL1PPnuINiRRpSy" Location="vl.generativegestaltung" Version="0.0.0.0" />
 </Document>

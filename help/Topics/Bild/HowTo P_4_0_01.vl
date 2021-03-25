@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="JvTxqjGpklQLNf8Gfbn9RH" LanguageVersion="2021.3.1.89" Version="0.128">
-  <NugetDependency Id="FBYDiiwpJsKNVW7kLFPXaG" Location="VL.CoreLib" Version="2021.3.1" />
+<Document xmlns:p="property" Id="JvTxqjGpklQLNf8Gfbn9RH" LanguageVersion="2021.4.0.21" Version="0.128">
+  <NugetDependency Id="FBYDiiwpJsKNVW7kLFPXaG" Location="VL.CoreLib" Version="2021.4.0-0021-g35811d5fa4" />
   <Patch Id="DZZSF6y0KCcNGFXdm6hyLH">
     <Canvas Id="PBCIofNDCF3Mpgr94PZaG2" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory">
       <!--
@@ -98,18 +98,22 @@
             <Pin Id="QwA7u0ZzRncOPmVAwqGUcJ" Name="Enabled" Kind="InputPin" />
             <Pin Id="PjWfJbSktA0OlRSdo0JzDN" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="229,336,75,19" Id="OM0HFzzeCCpNIX7CKuLu5c">
+          <Node Bounds="232,378,75,19" Id="OM0HFzzeCCpNIX7CKuLu5c">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ImageReader" />
             </p:NodeReference>
             <Pin Id="AWOXLolt9E4MDLEPu1jzIO" Name="Filename" Kind="InputPin" />
-            <Pin Id="GfUM4DOPOAKOhvmgrOeAU9" Name="Load" Kind="InputPin" />
+            <Pin Id="GfUM4DOPOAKOhvmgrOeAU9" Name="Load" Kind="InputPin" DefaultValue="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="FdXQX6Of7pNQXaUa53OuSP" Name="Output" Kind="OutputPin" />
           </Node>
-          <Pad Id="JdiyrzLWAUTP3hZ7HK81Mb" Comment="" Bounds="231,311,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\assets\images\suppenteller.jpg">
-            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="Path" />
+          <Pad Id="JdiyrzLWAUTP3hZ7HK81Mb" Comment="" Bounds="158,253,161,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\assets\images\suppenteller.jpg">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="172,618,185,19" Id="VNja4vqI7YNNmAjaTwPCfG">
@@ -288,7 +292,7 @@
             <Pin Id="BhoujU7gsPGM1tvRP1U50E" Name="Whole Part" Kind="OutputPin" />
             <Pin Id="GpdC4wIiwAXLThe8BIukrJ" Name="Fractional Part" Kind="OutputPin" />
           </Node>
-          <Pad Id="IJL7uehJsCPMxlZT0FWXXO" Bounds="35,79,289,195" ShowValueBox="true" isIOBox="true" Value="P_4_0_01&#xD;&#xA;draw a grid of streched copies of an image&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x       : tile count horizontally&#xD;&#xA;position y       : tile count vertically&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;s                    : save png">
+          <Pad Id="IJL7uehJsCPMxlZT0FWXXO" Bounds="35,79,289,168" ShowValueBox="true" isIOBox="true" Value="P_4_0_01&#xD;&#xA;draw a grid of streched copies of an image&#xD;&#xA;&#xD;&#xA;MOUSE&#xD;&#xA;position x       : tile count horizontally&#xD;&#xA;position y       : tile count vertically&#xD;&#xA;&#xD;&#xA;KEYS&#xD;&#xA;s                    : save png">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -297,6 +301,38 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="157,292,48,19" Id="ImvKWeYepFlN9dTN3zOLHh">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToPath" />
+            </p:NodeReference>
+            <Pin Id="V4k17XYQuVXPOq0ZVlzRKj" Name="Input" Kind="InputPin" />
+            <Pin Id="JCCY2oen2iRM0PLyzAocis" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="157,319,80,26" Id="Th1HnqQZMgnQTU8kwiuTK7">
+            <p:NodeReference LastCategoryFullName="IO.Path" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="MakeAbsolute" />
+            </p:NodeReference>
+            <Pin Id="Laekgfa7bD1L9oceN4t7Fh" Name="Input" Kind="StateInputPin" />
+            <Pin Id="PzKRrWlikD2NzCfvmwYrCA" Name="Base Path" Kind="InputPin" />
+            <Pin Id="OOMomIoKywrL3A27Mc804d" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="231,266,87,19" Id="HYdYbYk8JMfQHHsLrs9UDC">
+            <p:NodeReference LastCategoryFullName="System.Application" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ApplicationPath" />
+            </p:NodeReference>
+            <Pin Id="E1EQInhuuonLxq1NzguWbF" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="231,292,48,19" Id="FrL0aTh98VANI3e4CC5xON">
+            <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="ToPath" />
+            </p:NodeReference>
+            <Pin Id="UrZjUrFGZK8L6H0mKu9GU5" Name="Input" Kind="InputPin" />
+            <Pin Id="PIHaEjwixUZP4rlWerotrX" Name="Result" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="BCtiQXLPaSuQJI8rk3uv1u" Name="Create" />
         <Patch Id="EJIGfaAoDUkNS5Wa7YvYnH" Name="Update" />
@@ -308,7 +344,6 @@
         <Link Id="HH1Kmzj1JCBMo9fOkfjy5e" Ids="GpUGKPXBxWjMwGZCzIeK7R,CfshxPobp2EMrI177PP3wd" />
         <Link Id="TyIKPGRzFXpPbGk1cxtDOQ" Ids="CfshxPobp2EMrI177PP3wd,FuuG9Fk60F3POPdU6mFIL1" />
         <Link Id="M9OTT8w66ixONhinTrRiBk" Ids="GO1PxSiBotiNExR17e9L4C,RAQcfOh8JgtPZjruPNbsOT" />
-        <Link Id="VgR1AYNhm3YLadva4P7WVp" Ids="JdiyrzLWAUTP3hZ7HK81Mb,AWOXLolt9E4MDLEPu1jzIO" />
         <Link Id="GsdqUsmXVgPOeTAquyqPy4" Ids="EtpdL2y6hxULpk1zQT68dM,TwvMIJ86FisPdHFfDT60iT" />
         <Link Id="IzJ0n4TkuTjMu0nYX3McFw" Ids="Ab9oMMtbbSAORSI7pQhQpY,Ord7Usq0TxeOvMKzQe9Pft" />
         <Link Id="IH34iy1XnLiMNYSOO2wvl2" Ids="EtpdL2y6hxULpk1zQT68dM,H4cKX26eFe9MJHYxjHgMvo" />
@@ -334,9 +369,14 @@
         <Link Id="LiZkExRo04zPQ9adSVleCg" Ids="NZyjmC3cILuOrAN9oaDYZe,K9iAdNu5RujODz9NqW81Hj" />
         <Link Id="BM6Ff1EwEkYPrSjY91UBtE" Ids="PjWfJbSktA0OlRSdo0JzDN,NvseWRgWWeAOqh7kchgdwo" />
         <Link Id="QhgGGQZjV5xMe7yiIDDE6V" Ids="Kf8byR0SIS2LDKIXXAvJBo,OC3DgNN5l48Nf0hDlFeWJJ" />
+        <Link Id="AmRm7iRdghfQLJCKOO7PiR" Ids="JCCY2oen2iRM0PLyzAocis,Laekgfa7bD1L9oceN4t7Fh" />
+        <Link Id="Bg1SIhP0Vb3P9oYqz8X6eY" Ids="E1EQInhuuonLxq1NzguWbF,UrZjUrFGZK8L6H0mKu9GU5" />
+        <Link Id="Ietsz77VajDOfAHYlAUniG" Ids="PIHaEjwixUZP4rlWerotrX,PzKRrWlikD2NzCfvmwYrCA" />
+        <Link Id="EHjXTHZE6W7OnBvjAkKH8J" Ids="OOMomIoKywrL3A27Mc804d,AWOXLolt9E4MDLEPu1jzIO" />
+        <Link Id="Nb6g0naTY4oMJPMrniFeAq" Ids="JdiyrzLWAUTP3hZ7HK81Mb,V4k17XYQuVXPOq0ZVlzRKj" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="M43TWYeaO5zP4dfawuBUjG" Location="VL.Skia" Version="2021.3.1" />
+  <NugetDependency Id="M43TWYeaO5zP4dfawuBUjG" Location="VL.Skia" Version="2021.4.0-0021-g35811d5fa4" />
   <DocumentDependency Id="HH7029QZJEaNNJ6amF3ok1" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
