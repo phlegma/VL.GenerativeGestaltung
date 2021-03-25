@@ -5,6 +5,8 @@ on:
       - master
     paths-ignore:
       - README.md
+      - 'help/HowTo TemplateHelpPatch.vl'
+      - LICENSE
 
 jobs:
   build:
