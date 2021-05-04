@@ -782,7 +782,7 @@
           </Node>
           <Pad Id="EWQZSjs2cdaLDWCDtbeWNg" SlotId="EalMlBu0Ya3QCUpM6KQSzr" Bounds="595,684" />
           <Pad Id="GZ54X8RagmbLrQvh4Y9HVB" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="480,545" />
-          <Node Bounds="633,570,75,89" Id="IBDoIZktMFoM9xxGJSRPM3">
+          <Node Bounds="551,553,75,89" Id="IBDoIZktMFoM9xxGJSRPM3">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
               <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
               <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -793,7 +793,7 @@
               <Patch Id="HMuej1pX57hMJcjzUmpKBK" Name="Create" ManuallySortedPins="true" />
               <Patch Id="Uud6YR9fK3XOLagRVUAXHU" Name="Update" ManuallySortedPins="true" />
               <Patch Id="OAdcHhU3IUtMcHdq74VONp" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="647,603,49,26" Id="KzNkX10RNFGLRLYVijDFIj">
+              <Node Bounds="565,586,49,26" Id="KzNkX10RNFGLRLYVijDFIj">
                 <p:NodeReference LastCategoryFullName="Main.HowTo M_6_1_01Application.Node" LastSymbolSource="HowTo M_6_1_01.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="RecordType" Name="Node" />
@@ -803,8 +803,8 @@
                 <Pin Id="GBdyk7Y10xjOshn4ilmuSI" Name="Output" Kind="StateOutputPin" />
               </Node>
             </Patch>
-            <ControlPoint Id="NvHQg0XEf99OGF6wgTK0rw" Bounds="647,577" Alignment="Top" />
-            <ControlPoint Id="Bi01YALVAoKOyydEQzNPG4" Bounds="647,653" Alignment="Bottom" />
+            <ControlPoint Id="NvHQg0XEf99OGF6wgTK0rw" Bounds="565,560" Alignment="Top" />
+            <ControlPoint Id="Bi01YALVAoKOyydEQzNPG4" Bounds="565,637" Alignment="Bottom" />
           </Node>
         </Canvas>
         <Patch Id="UBRJ51HRQQlNucOQ2OEmn4" Name="Create" />
