@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BggvVpcIU5JPlsIbTMkqTc" LanguageVersion="2021.3.1.89" Version="0.128">
-  <NugetDependency Id="RrUT32xf79AMkfZuDCo5gR" Location="VL.CoreLib" Version="2021.3.1" />
+<Document xmlns:p="property" Id="BggvVpcIU5JPlsIbTMkqTc" LanguageVersion="2021.3.2.109" Version="0.128">
+  <NugetDependency Id="RrUT32xf79AMkfZuDCo5gR" Location="VL.CoreLib" Version="2021.3.2" />
   <Patch Id="SO76CUiLRFGL2virr2PWjo">
     <Canvas Id="PpcfwnmLjllM7WdMdUBdnp" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -61,7 +61,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="JeGYIRP0j8ANhuW7RfWhE4" Name="Bounds" Kind="InputPin" DefaultValue="1141, 61, 594, 393">
+            <Pin Id="JeGYIRP0j8ANhuW7RfWhE4" Name="Bounds" Kind="InputPin" DefaultValue="1782, -636, 594, 393">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -399,7 +399,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="O6rvSElIbeGLxy24J54bq7" Location="VL.Stride" Version="0.9.90-g7445968757" />
-  <NugetDependency Id="T2KI98UcDx8N9DuCOLzKZK" Location="VL.Skia" Version="2021.3.1" />
+  <NugetDependency Id="O6rvSElIbeGLxy24J54bq7" Location="VL.Stride" Version="0.9.96-gbe66fd6c22" />
+  <NugetDependency Id="T2KI98UcDx8N9DuCOLzKZK" Location="VL.Skia" Version="2021.3.2" />
   <DocumentDependency Id="VGc2l5V6881LA7veWv5ATq" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
