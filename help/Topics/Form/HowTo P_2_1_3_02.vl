@@ -20,7 +20,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="CPPLFAP7ArNPcGMK7V9UjR" Name="Bounds" Kind="InputPin" DefaultValue="2047, -1080, 1291, 1037">
+            <Pin Id="CPPLFAP7ArNPcGMK7V9UjR" Name="Bounds" Kind="InputPin" DefaultValue="1106, 15, 658, 506">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -152,7 +152,7 @@
           <Pad Id="SCznObelsiFMn5vdTRpp2x" SlotId="D88V8fvjl6sM6lpfsEHoRu" Bounds="491,1098" />
           <Pad Id="Uhi8Rtsz3XYMxUwLMQC8dY" SlotId="DxwnqfvCD6pPBDIWuw4z9k" Bounds="439,123" />
           <Node Bounds="438,152,85,19" Id="OhnTDsEYODaNThsLYNWPZ6">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="VL.GenerativeGestaltung.vl">
+            <p:NodeReference>
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="UserInput" />
             </p:NodeReference>
@@ -827,4 +827,5 @@
   <NugetDependency Id="QQDwqC4yn3sL7khqVBaUpc" Location="VL.Skia" Version="2021.4.0-0622-gd89e9c339e" />
   <DocumentDependency Id="P91UsHNIgQ6PzAgJqEbbjz" Location="C:/Users/phlegma/AppData/Local/vvvv/gamma-preview/nugets/VL.GenerativeGestaltung.0.4.3-alpha/VL.GenerativeGestaltung.vl" />
   <NugetDependency Id="AyhGjrlvL1PPnuINiRRpSy" Location="vl.generativegestaltung" Version="0.4.3-alpha" />
+  <DocumentDependency Id="KcwbDi7L1lrO7xtaHzKeSd" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
