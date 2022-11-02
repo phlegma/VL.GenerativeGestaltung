@@ -11,6 +11,8 @@
 			<VLDocument link="Topics\Farbe\HowTo P_1_1_2_01.vl"/>
 			<VLDocument link="Topics\Farbe\HowTo P_1_2_2_01.vl"/>
 			<VLDocument link="Topics\Farbe\HowTo P_1_2_3_01.vl"/>
+			<VLDocument link="Topics\Farbe\HowTo P_1_2_3_02.vl"/>
+			<VLDocument link="Topics\Farbe\HowTo P_1_2_3_03.vl"/>
 		</Subtopic>
 		<Subtopic title="P.2. Form">
 			<VLDocument link="Topics\Form\HowTo P_2_0_01.vl"/>
@@ -57,6 +59,9 @@
 			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_3_01.vl"/>
 			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_3_02.vl"/>
 			<VLDocument link="Topics\Schwingungsfiguren\HowTo M_2_5_01.vl"/>
+		</Subtopic>
+		<Subtopic title="M.6. Dynamische Datenstrukturen">
+			<VLDocument link="Topics\Datenstrukturen\HowTo M_6_1_01.vl"/>
 		</Subtopic>
 	</Topic>
 </Pack>
