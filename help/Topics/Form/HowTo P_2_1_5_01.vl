@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SGxYnpP1G26MCmReINlLYV" LanguageVersion="2021.3.1.89" Version="0.128">
-  <NugetDependency Id="VOS2DmWE5NBMSR7FdDhCOr" Location="VL.CoreLib" Version="2021.3.1" />
+<Document xmlns:p="property" Id="SGxYnpP1G26MCmReINlLYV" LanguageVersion="2021.4.11.1277" Version="0.128">
+  <NugetDependency Id="VOS2DmWE5NBMSR7FdDhCOr" Location="VL.CoreLib" Version="2021.4.11-1277-g333deca562" />
   <Patch Id="CfFy95Vn02yLEdoniHsxKy">
     <Canvas Id="NRX5tk2yzOOP5MKOGcim1M" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -20,7 +20,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="N3T8QavQfjdOy7RPImWCCy" Name="Bounds" Kind="InputPin" DefaultValue="1138, 60, 595, 609">
+            <Pin Id="N3T8QavQfjdOy7RPImWCCy" Name="Bounds" Kind="InputPin" DefaultValue="1101, 56, 593, 608">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -58,9 +58,11 @@
             </p:NodeReference>
             <Pin Id="OSeJcuUT8lBONpGWlmD0xL" Name="Input" Kind="InputPin" />
             <Pin Id="UoKFdFtOz5wOMCs8rlvQie" Name="Input 2" Kind="InputPin" />
-            <Pin Id="Hx8xNGYxioWOUs5FkRQfr8" Name="Output" Kind="OutputPin" />
             <Pin Id="R0QeeQSZfk8OXPftOVh3bz" Name="Input 3" Kind="InputPin" />
             <Pin Id="VPeyCv7hqmpPMwx6Z5NdQk" Name="Input 4" Kind="InputPin" />
+            <Pin Id="FjFA2iuNjtWPBOQfupoWkW" Name="Debug" Kind="InputPin" />
+            <Pin Id="InpKiuhkRFXPWqwpLBqt2q" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Hx8xNGYxioWOUs5FkRQfr8" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="279,563,59,19" Id="QcVhVSyMxFIPIBSzSDpPD1">
             <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastSymbolSource="VL.Skia.vl">
@@ -108,6 +110,7 @@
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="JcPidItwS3jQIVLwWHdzsA" Name="Alignment" Kind="InputPin" />
             <Pin Id="JKoiSRTxOxlQMhzqFxxNr9" Name="Phase" Kind="InputPin" />
             <Pin Id="A4ORqlpTG1GNkCYr9HGydk" Name="Count" Kind="InputPin" DefaultValue="97">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -123,6 +126,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="Jg4pvA3OtRuNXY0XhLqY0h" Name="Input" Kind="InputPin" />
+            <Pin Id="INXnnPzU5KIOolEJWl0qri" Name="Debug" Kind="InputPin" />
             <Pin Id="SkNJif6NC1NPkAghWJbiTF" Name="Enabled" Kind="InputPin" />
             <Pin Id="J09PK0mkkpMLDsThWlz9u7" Name="Output" Kind="OutputPin" />
           </Node>
@@ -235,6 +239,7 @@
               <CategoryReference Kind="Category" Name="Skia" NeedsToBeDirectParent="true" />
             </p:NodeReference>
             <Pin Id="FujIOzVnUwdMVmytJUdKAs" Name="Input" Kind="InputPin" />
+            <Pin Id="KPi6BuU5sO2PrrW72Cy6Po" Name="Debug" Kind="InputPin" />
             <Pin Id="BvXNedQP3nYNh8gO4bBY0z" Name="Enabled" Kind="InputPin" />
             <Pin Id="BEqRJYSBQFAMiGht8JYrnt" Name="Output" Kind="OutputPin" />
           </Node>
@@ -246,6 +251,7 @@
             </p:NodeReference>
             <Pin Id="KFYCxU2sdhSNVinyCjwNoO" Name="Context" Kind="OutputPin" />
             <Pin Id="ALaGPNWoteIL04nAtAA8Lt" Name="Position In World" Kind="OutputPin" />
+            <Pin Id="BHRpNfIOKlzQYqglK3Y0de" Name="Normalized Position" Kind="OutputPin" />
             <Pin Id="M0MuUKyGFCGNYcXjI6MhEX" Name="Left Pressed" Kind="OutputPin" />
             <Pin Id="OZZrSIl5rpeOJZEf8mAL4c" Name="Middle Pressed" Kind="OutputPin" />
             <Pin Id="BNvaX92D6xYNcKeoc0mZRM" Name="Right Pressed" Kind="OutputPin" />
@@ -403,7 +409,7 @@
           </Pad>
           <Pad Id="VR6g4Sf1OEWO0xNSFJP5Zg" SlotId="JhJQknHRZw9NfPACp9908m" Bounds="308,601" />
           <Node Bounds="372,325,55,19" Id="PcCXTzDi5WMLgNA9S93nT4">
-            <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.IO.Keyboard" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KeyBang" />
               <CategoryReference Kind="Category" Name="Keyboard" NeedsToBeDirectParent="true" />
@@ -418,7 +424,7 @@
           </Node>
           <Pad Id="PXy8pjgmhtmOcUogJP3vGs" SlotId="JhJQknHRZw9NfPACp9908m" Bounds="315,306" />
           <Node Bounds="312,324,55,19" Id="VnZ6yZnIoMsLNulQRNcPoZ">
-            <p:NodeReference LastCategoryFullName="IO.Keyboard" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.IO.Keyboard" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KeyBang" />
               <CategoryReference Kind="Category" Name="Keyboard" NeedsToBeDirectParent="true" />
@@ -482,7 +488,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="KkSlHT9HuVIMO1rBJx3zZm" Location="VL.Stride" Version="0.9.90-g7445968757" />
-  <NugetDependency Id="AFkPNDW0fLJLWUtP4MrL2K" Location="VL.Skia" Version="2021.3.1" />
+  <NugetDependency Id="KkSlHT9HuVIMO1rBJx3zZm" Location="VL.Stride" Version="2021.4.11-1277-g333deca562" />
+  <NugetDependency Id="AFkPNDW0fLJLWUtP4MrL2K" Location="VL.Skia" Version="2021.4.11-1277-g333deca562" />
   <DocumentDependency Id="VLrKSvpqNuRNcByLd27AIu" Location="../../../VL.GenerativeGestaltung.vl" />
 </Document>
