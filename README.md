@@ -7,7 +7,7 @@ Try with the visual live-programming environment for .NET Download: http://visua
 
 To use the latest stable version:
 1. Go to Gamma's Quad menu > Manage Nugets > Commandline and type:  
-`nuget install VL.GenerativeGestaltung -pre`
+`nuget install VL.GenerativeGestaltung`
 2. Press Enter and wait the ending of the installation process
 3. Open the Help Menu (F1). Open the tap "Learn". Search for the pack "GenerativeGestaltung"
 
